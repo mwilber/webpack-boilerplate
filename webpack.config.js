@@ -16,9 +16,7 @@ const appHtmlTitle = 'Webpack Boilerplate';
  */
 module.exports = {
     entry: {
-        vendor: [
-            'lodash'
-        ],
+        vendor: [],
         bundle: path.join(dirApp, 'index')
     },
     resolve: {
@@ -35,7 +33,7 @@ module.exports = {
 
         new webpack.ProvidePlugin({
             // lodash
-            '_': 'lodash'
+            //'_': 'lodash'
         }),
 
         new HtmlWebpackPlugin({

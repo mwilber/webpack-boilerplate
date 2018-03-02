@@ -16,7 +16,7 @@ const appHtmlTitle = 'Webpack Boilerplate';
  */
 module.exports = {
     entry: {
-        vendor: [],
+        //vendor: [],
         bundle: path.join(dirApp, 'index')
     },
     resolve: {
@@ -31,10 +31,10 @@ module.exports = {
             IS_DEV: IS_DEV
         }),
 
-        new webpack.ProvidePlugin({
-            // lodash
-            //'_': 'lodash'
-        }),
+        // new webpack.ProvidePlugin({
+        //     // lodash
+        //     //'_': 'lodash'
+        // }),
 
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.ejs'),

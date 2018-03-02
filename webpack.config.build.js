@@ -15,7 +15,7 @@ module.exports = merge(webpackConfig, {
 
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
-            names: ['vendor', 'manifest']
+            names: ['manifest']
         }),
         new CleanWebpackPlugin(['dist'])
     ]

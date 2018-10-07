@@ -1,12 +1,12 @@
 {
   "name": "webpack-boilerplate",
   "version": "4.0.0",
-  "description": "Plain webpack 4 Boilerplate with Babel, SASS and lodash on board",
-  "author": "Christoph von Gellhorn",
+  "description": "Plain webpack 4 Boilerplate with Babel and SASS",
+  "author": "Matthew Wilber",
   "license": "MIT",
-  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
+  "homepage": "https://github.com/mwilber/webpack-boilerplate.git",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --port 8699 --progress --open --mode development --config webpack.config.dev.js",
     "build": "webpack -p --progress --mode production --config webpack.config.build.js"
   },
   "repository": {

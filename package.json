@@ -7,7 +7,8 @@
   "homepage": "https://github.com/mwilber/webpack-boilerplate.git",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --port 8699 --progress --open --mode development --config webpack.config.dev.js",
-    "build": "webpack -p --progress --mode production --config webpack.config.build.js"
+    "build": "webpack -p --progress --mode production --config webpack.config.build.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.1.0",
+    "@types/jest": "^23.3.3",
     "babel-loader": "8.0.2",
     "babel-plugin-syntax-dynamic-import": "6.18.0",
     "babel-preset-env": "1.7.0",
@@ -26,9 +28,11 @@
     "css-loader": "1.0.0",
     "file-loader": "2.0.0",
     "html-webpack-plugin": "3.2.0",
+    "jest": "^23.6.0",
     "node-sass": "4.9.3",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
+    "ts-jest": "^23.10.4",
     "ts-loader": "^5.2.1",
     "typescript": "^3.1.1",
     "url-loader": "1.1.1",

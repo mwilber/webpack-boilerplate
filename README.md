@@ -9,6 +9,5 @@ Webpack 4 Boilerplate
 ## Important
 master branch is unchanged from original cvgellhorn/webpack-boilerplate
 
-Use branch gz-starter for latest using Babel
+Use branch gz-starter for latest using Babel  
 Use branch gz-typescript for latest using Typescript
-

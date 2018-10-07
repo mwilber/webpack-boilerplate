@@ -26,7 +26,8 @@ module.exports = {
             dirNode,
             dirApp,
             dirAssets
-        ]
+        ],
+        extensions: [ '.tsx', '.ts', '.js' ]
     },
     plugins: [
         new webpack.DefinePlugin({
@@ -40,6 +41,12 @@ module.exports = {
     ],
     module: {
         rules: [
+            // TYPESCRIPT
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
+            },
             // BABEL
             {
                 test: /\.js$/,

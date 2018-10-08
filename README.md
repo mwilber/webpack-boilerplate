@@ -12,7 +12,7 @@ You only need <b>node.js</b> pre-installed and you’re good to go.
 ## Download
 Download in current directory
 ```sh
-$ curl -L -o master.zip https://github.com/mwilber/webpack-boilerplate/archive/master.zip && unzip master.zip && rm master.zip && mv ./webpack-boilerplate-master/{.,}* ./ && rm -r ./webpack-boilerplate-master
+$ curl -L -o master.zip https://github.com/mwilber/webpack-boilerplate/archive/gz-starter.zip && unzip master.zip && rm master.zip && mv -n ./webpack-boilerplate-gz-starter/{.,}* ./ && rm -r ./webpack-boilerplate-gz-starter
 ```
 
 ## Setup
